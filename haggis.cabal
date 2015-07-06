@@ -1,0 +1,18 @@
+name:                haggis
+version:             0.1.0.0
+synopsis:            An interpreter for the Haggis programming language.
+homepage:            https://github.com/sivawashere/haggis
+license:             BSD3
+license-file:        LICENSE
+author:              Siva Somayyajula
+maintainer:          siva.somayyajula@gmail.com
+copyright:           (c) 2015 Siva Somayyajula
+category:            Language
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable haggis
+  main-is:             Main.hs
+  hs-source-dirs:      src
+  build-depends:       base >=4.7 && <4.8, parsec, containers, mtl, transformers
+  default-language:    Haskell2010

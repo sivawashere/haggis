@@ -1,0 +1,12 @@
+# Short-term
+
+* Get array dereferencing to properly parse
+* Make sequenced relational operators fail on parse
+* Allow whitespace in expressions
+* Match foreach keywords
+* Remove show instances in Scope.hs and Typed.hs
+
+# Long-term
+
+* Extend interpreter to accommodate higher levels of Haggis syntax
+* Better error reporting in parser and checker
